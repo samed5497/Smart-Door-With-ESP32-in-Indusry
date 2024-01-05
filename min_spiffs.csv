@@ -1,0 +1,74 @@
+    String s =
+        String("<!DOCTYPE html>") +
+        "<html>" +
+        "<head>" +
+        "<meta charset='UTF-8'>" +
+        "<title>YÖNETİM MODU</title>" +
+        "<style>" +
+        "/* CSS stilleri buraya eklenebilir */" +
+        "body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }" +
+        "h1 { color: #333; }" +
+        "p { color: #555; }" +
+        ".button { margin: 5px; padding: 8px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; }" +
+        "</style>" +
+        "</head>" +
+        "<body>" +
+        "<h1>YÖNETİM MODU</h1>" +
+        "<p><a href=\"/reset\">Wi-Fi Ayarlarını Sıfırla</a></p>" +
+        "<form method='POST' action='/update' enctype='multipart/form-data'>" +
+        "<input type='file' name='update'>" +
+        "<input type='submit' value='Yükle' class='button'>" +
+        "</form>" +
+        "<button class='button' onclick='kapiAc()'>Kapıyı Aç</button>" +
+        "<button class='button' onclick='kapiKapat()'>Kapıyı Kapat</button>" +
+        "<button class='button' onclick='roleAc()'>Röle Aç</button>" +
+        "<button class='button' onclick='roleKapat()'>Röle Kapat</button>" +
+        "<p>\"" + VERSIYON + "\"< / p > " +
+        "</body>" +
+        "</html>";
+    return s;
+
+
+
+
+
+
+
+
+            String("<!DOCTYPE html>") +
+        "<html>" +
+        "<head>" +
+        "<meta charset='UTF-8'>" + // Türkçe karakter desteği için meta etiketi
+        "<title>YÖNETİM MODU</title>" +
+        "<style>" + // CSS stilleri buraya eklenebilir
+        "body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }" +
+        "h1 { color: #333; }" +
+        "p { color: #555; }" +
+        "form { margin-top: 20px; }" +
+        "input[type='file'], input[type='submit'] { margin: 5px; padding: 8px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; }" +
+        "input[type='submit'] { background-color: #4CAF50; color: white; cursor: pointer; }" +
+        "</style>" +
+        "</head>" +
+        "<body>" +
+        "<h1>YÖNETİM MODU</h1>" +
+        "<p><a href=\"/reset\">Wi-Fi Ayarlarını Sıfırla</a></p>" +
+        "<form method='POST' action='/update' enctype='multipart/form-data'>" +
+        "<input type='file' name='update'>" +
+        "<input type='submit' value='Yükle'>" +
+        "</form>" +
+        "<br>" +
+        "<button onclick=\"KapiAc()\">Kapıyı Aç</button>" +
+        "<button onclick=\"KapiKapat()\">Kapıyı Kapat</button>" +
+        "<br>" +
+        "<button onclick=\"RoleyAc()\">Roleyi Aç</button>" +
+        "<button onclick=\"RoleyKapat()\">Roleyi Kapat</button>" +
+        "<br><br>" +
+        "<p id='versionText'>VERSIYON</p>" +
+        "<script>" +
+        "function KapiAc() { /* Kapi_Ac fonksiyonunu çağır */ }" +
+        "function KapiKapat() { /* Kapi_Kapat fonksiyonunu çağır */ }" +
+        "function RoleyAc() { /* ROLE_1_ISIK'ı aç fonksiyonunu çağır */ }" +
+        "function RoleyKapat() { /* ROLE_1_ISIK'ı kapat fonksiyonunu çağır */ }" +
+        "</script>" +
+        "</body>" +
+        "</html>";
